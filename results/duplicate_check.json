@@ -1,0 +1,100 @@
+{
+ "min_common_frames": 150,
+ "clips": 2852,
+ "different_participants": {
+  "pairs_compared": 3759857,
+  "smallest_spread_semitones": 0.3176793073841265,
+  "median_spread_semitones": 4.208858721088099,
+  "pairs_below_a_tenth_of_a_semitone": 0,
+  "closest_pairs": [
+   {
+    "file_a": "S162_whistle_1_TryEverything.wav",
+    "start_a": 5.395,
+    "file_b": "S43_whistle_1_NewYork.wav",
+    "start_b": 16.207,
+    "spread_semitones": 0.3176793073841265,
+    "common_frames": 161
+   },
+   {
+    "file_a": "S142_whistle_2_Feeling.wav",
+    "start_a": 10.209,
+    "file_b": "S43_whistle_1_NewYork.wav",
+    "start_b": 11.207,
+    "spread_semitones": 0.3284122291299747,
+    "common_frames": 238
+   },
+   {
+    "file_a": "S162_whistle_1_TryEverything.wav",
+    "start_a": 5.395,
+    "file_b": "S43_whistle_1_Happy.wav",
+    "start_b": 15.813,
+    "spread_semitones": 0.34008392110296537,
+    "common_frames": 164
+   },
+   {
+    "file_a": "S43_whistle_1_NewYork.wav",
+    "start_a": 11.207,
+    "file_b": "S88_whistle_2_Feeling.wav",
+    "start_b": 10.0,
+    "spread_semitones": 0.3424978123929777,
+    "common_frames": 155
+   },
+   {
+    "file_a": "S162_whistle_2_Friend.wav",
+    "start_a": 10.604,
+    "file_b": "S43_whistle_1_Happy.wav",
+    "start_b": 10.813,
+    "spread_semitones": 0.3457393078913292,
+    "common_frames": 197
+   }
+  ]
+ },
+ "same_participant_other_recording": {
+  "pairs_compared": 16602,
+  "smallest_spread_semitones": 0.31451047939421556,
+  "median_spread_semitones": 4.2514980823030175,
+  "pairs_below_a_tenth_of_a_semitone": 0,
+  "closest_pairs": [
+   {
+    "file_a": "S43_whistle_1_Happy.wav",
+    "start_a": 15.813,
+    "file_b": "S43_whistle_1_NewYork.wav",
+    "start_b": 16.207,
+    "spread_semitones": 0.31451047939421556,
+    "common_frames": 178
+   },
+   {
+    "file_a": "S43_whistle_1_Happy.wav",
+    "start_a": 10.813,
+    "file_b": "S43_whistle_1_NewYork.wav",
+    "start_b": 11.207,
+    "spread_semitones": 0.3198720065441339,
+    "common_frames": 304
+   },
+   {
+    "file_a": "S43_whistle_1_Feeling.wav",
+    "start_a": 10.72,
+    "file_b": "S43_whistle_1_Happy.wav",
+    "start_b": 5.813,
+    "spread_semitones": 0.33420320862882424,
+    "common_frames": 261
+   },
+   {
+    "file_a": "S43_whistle_1_NewYork.wav",
+    "start_a": 16.207,
+    "file_b": "S43_whistle_1_TryEverything.wav",
+    "start_b": 15.906,
+    "spread_semitones": 0.3485181631691813,
+    "common_frames": 194
+   },
+   {
+    "file_a": "S43_whistle_1_Happy.wav",
+    "start_a": 0.813,
+    "file_b": "S43_whistle_1_NewYork.wav",
+    "start_b": 16.207,
+    "spread_semitones": 0.3579958136529104,
+    "common_frames": 209
+   }
+  ]
+ }
+}

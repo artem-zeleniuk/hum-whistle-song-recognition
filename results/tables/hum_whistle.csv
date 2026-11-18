@@ -1,0 +1,13 @@
+experiment,hum,whistle
+xgboost__aggregate__none,0.390187,0.341495
+xgboost__temporal__none,0.429164,0.387616
+cnn1d__melody_full__none,0.485003,0.430463
+cnn1d__melody_full_transpose__none,0.687215,0.631174
+keynet__melody_full__none,0.661921,0.589181
+cnn1d__contour__none,0.711679,0.572100
+cnn1d__contour_wide__none,0.717761,0.592028
+knn__contour_dtw__none,0.586731,0.341637
+mlp__mert__none,0.446164,0.419786
+finetune__mert__none,0.598618,0.589751
+cnn1d__melody_full_transpose__heavy,0.743469,0.680712
+ensemble__top2,0.790739,0.710605

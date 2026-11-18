@@ -1,0 +1,8 @@
+# The audio, downloaded by scripts/download_data.py (the manifest stays in the repository)
+data/audio/
+# Extracted features (about 1 GB), written by the extraction scripts
+cache/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+*.part

@@ -1,0 +1,13 @@
+experiment,model,check,seeds,clip_accuracy,clip_std,clip_ci_low,clip_ci_high,recording_accuracy,recording_std,clip_accuracy_participant_folds,recording_accuracy_participant_folds
+cnn1d__contour__none__clip_folds,"1D CNN, pitch contour",clips split at random (recordings on both sides),5,0.755680,0.007433,0.731797,0.780080,0.867250,0.005208,0.642917,0.722750
+cnn1d__contour__none__recording_folds,"1D CNN, pitch contour",recordings split at random (participants on both sides),5,0.631697,0.004400,0.600660,0.662611,0.720500,0.003410,0.642917,0.722750
+cnn1d__contour__none__shuffled_labels,"1D CNN, pitch contour",training labels shuffled,5,0.122511,0.006247,0.113482,0.131359,0.117750,0.008269,0.642917,0.722750
+cnn1d__melody_full_transpose__none__clip_folds,"1D CNN, chroma, its difference, onset, tempo, random key changes in training",clips split at random (recordings on both sides),5,0.777700,0.005243,0.754943,0.798683,0.885500,0.004228,0.659607,0.739000
+cnn1d__melody_full_transpose__none__recording_folds,"1D CNN, chroma, its difference, onset, tempo, random key changes in training",recordings split at random (participants on both sides),5,0.635203,0.005578,0.605498,0.664436,0.719750,0.010440,0.659607,0.739000
+cnn1d__melody_full_transpose__none__shuffled_labels,"1D CNN, chroma, its difference, onset, tempo, random key changes in training",training labels shuffled,5,0.119215,0.011497,0.110685,0.127855,0.113750,0.015831,0.659607,0.739000
+mlp__ast__none__clip_folds,"MLP, AST (last token)",clips split at random (recordings on both sides),5,0.696283,0.005524,0.676319,0.716150,0.825000,0.005244,0.322581,0.349000
+mlp__ast__none__recording_folds,"MLP, AST (last token)",recordings split at random (participants on both sides),5,0.273773,0.005010,0.250626,0.297430,0.302250,0.003298,0.322581,0.349000
+mlp__ast__none__shuffled_labels,"MLP, AST (last token)",training labels shuffled,5,0.123703,0.010583,0.116866,0.130550,0.118250,0.014547,0.322581,0.349000
+xgboost__aggregate__none__clip_folds,"XGBoost, aggregate statistics",clips split at random (recordings on both sides),5,0.567952,0.003565,0.544907,0.590976,0.676000,0.007961,0.366199,0.411000
+xgboost__aggregate__none__recording_folds,"XGBoost, aggregate statistics",recordings split at random (participants on both sides),5,0.327069,0.003116,0.299408,0.354806,0.354000,0.003824,0.366199,0.411000
+xgboost__aggregate__none__shuffled_labels,"XGBoost, aggregate statistics",training labels shuffled,5,0.116690,0.003733,0.108013,0.126235,0.113000,0.004975,0.366199,0.411000

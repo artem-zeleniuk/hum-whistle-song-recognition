@@ -1,0 +1,13 @@
+experiment,full,padded
+xgboost__aggregate__none,0.377193,0.338000
+xgboost__temporal__none,0.428460,0.358000
+cnn1d__melody_full__none,0.476316,0.411500
+cnn1d__melody_full_transpose__none,0.683528,0.598250
+keynet__melody_full__none,0.642398,0.584250
+cnn1d__contour__none,0.658869,0.602000
+cnn1d__contour_wide__none,0.668616,0.623000
+knn__contour_dtw__none,0.482456,0.423750
+mlp__mert__none,0.449903,0.390250
+finetune__mert__none,0.608382,0.558000
+cnn1d__melody_full_transpose__heavy,0.731579,0.663750
+ensemble__top2,0.769006,0.705750

@@ -1,0 +1,6 @@
+experiment,clip_accuracy,clip_accuracy_repeated,same_prediction_share,max_probability_difference
+cnn1d__melody_full__none,0.458135,0.458135,1.000000,0.000000
+cnn1d__melody_full__strong,0.626648,0.627349,0.992216,0.922577
+lightgbm__aggregate__conservative,0.358696,0.358696,1.000000,0.000000
+xgboost__aggregate__none,0.366199,0.366199,1.000000,0.000000
+xgboost__temporal__none,0.408696,0.408696,1.000000,0.000000

@@ -1,0 +1,21 @@
+# Versions of the published run (Python 3.11.12, torch 2.7.0 with CUDA 12.8, numpy 2.2.5, Linux).
+# The pins of the audio stack matter: librosa 0.11.0 compiles some functions with numba on first use.
+torch>=2.5
+numpy>=1.26,<2.3
+scipy==1.15.3
+pandas==2.3.3
+scikit-learn==1.7.2
+joblib==1.5.2
+librosa==0.11.0
+numba==0.62.1
+llvmlite==0.45.1
+soundfile==0.13.1
+soxr==1.0.0
+xgboost==3.1.2
+lightgbm==4.6.0
+transformers==4.57.3
+matplotlib==3.10.7
+# Only for notebooks/results.ipynb
+# jupyter
+# Only for running tests/ with pytest (both test files also run as plain scripts)
+# pytest

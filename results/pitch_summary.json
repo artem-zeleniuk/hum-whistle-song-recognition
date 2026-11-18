@@ -1,0 +1,36 @@
+{
+ "fmin_hz": 65.4,
+ "fmax_hz": 2093.0,
+ "hum": {
+  "clips": 1447,
+  "voiced_share": 0.8574257500338509,
+  "clips_under_30_percent_voiced": 0.002073255010366275,
+  "f0_percentiles_hz": {
+   "5": 95.20902252197266,
+   "25": 143.47872924804688,
+   "50": 188.2309112548828,
+   "75": 286.95745849609375,
+   "95": 378.64263916015625,
+   "99": 479.8233947753906
+  },
+  "voiced_frames_within_10_percent_of_fmax": 0.0014621414128394544,
+  "clips_with_median_within_15_percent_of_fmax": 0.0,
+  "voiced_frames_above_2093_hz": 1.8125719993877534e-05
+ },
+ "whistle": {
+  "clips": 1405,
+  "voiced_share": 0.7953503189212127,
+  "clips_under_30_percent_voiced": 0.009252669039145907,
+  "f0_percentiles_hz": {
+   "5": 797.6947631835938,
+   "25": 1134.6458740234375,
+   "50": 1295.8590087890625,
+   "75": 1462.9786376953125,
+   "95": 1843.2376708984375,
+   "99": 2021.7091064453125
+  },
+  "voiced_frames_within_10_percent_of_fmax": 0.039230992909387793,
+  "clips_with_median_within_15_percent_of_fmax": 0.04911032028469751,
+  "voiced_frames_above_2093_hz": 0.0010736573690920885
+ }
+}
